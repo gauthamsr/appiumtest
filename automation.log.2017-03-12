@@ -1,0 +1,61 @@
+2017-03-12 09:56:44 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 09:57:02 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 10:18:06 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 10:18:27 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 10:28:27 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 10:29:23 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 10:30:19 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 10:31:12 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 10:35:19 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 10:36:13 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 10:41:31 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 10:42:01 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2017-03-12 10:42:17 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 10:48:49 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 10:49:16 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2017-03-12 10:49:32 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 10:54:51 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 10:55:19 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2017-03-12 10:55:35 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 11:40:29 INFO  Scenario_Search:69 - Executing the Testcase GB_02 Order is 1.0
+2017-03-12 11:41:28 INFO  Scenario_Search:69 - Executing the Testcase GB_03 Order is 1.0
+2017-03-12 11:41:40 INFO  Scenario_Search:69 - Executing the Testcase GB_04 Order is 1.0
+2017-03-12 11:42:13 INFO  Scenario_Search:69 - Executing the Testcase GB_02 Order is 1.0
+2017-03-12 11:42:43 INFO  Scenario_Search:93 - Failed as Actual Result is 189 Expected Result  is 210
+2017-03-12 11:42:56 INFO  Scenario_Search:69 - Executing the Testcase GB_03 Order is 1.0
+2017-03-12 11:43:09 INFO  Scenario_Search:69 - Executing the Testcase GB_04 Order is 1.0
+2017-03-12 11:44:30 INFO  Scenario_Search:69 - Executing the Testcase GB_02 Order is 1.0
+2017-03-12 11:45:03 INFO  Scenario_Search:88 - Passed as Actual Result is 189 Expected Result  is 189
+2017-03-12 11:45:16 INFO  Scenario_Search:69 - Executing the Testcase GB_03 Order is 1.0
+2017-03-12 11:45:28 INFO  Scenario_Search:69 - Executing the Testcase GB_04 Order is 1.0
+2017-03-12 12:14:49 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 12:15:24 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2017-03-12 12:15:40 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 12:15:53 INFO  Scenario_Search:69 - Executing the Testcase GB_02 Order is 1.0
+2017-03-12 12:16:23 INFO  Scenario_Search:93 - Failed as Actual Result is 40 Expected Result  is 189
+2017-03-12 12:16:36 INFO  Scenario_Search:69 - Executing the Testcase GB_03 Order is 1.0
+2017-03-12 12:16:48 INFO  Scenario_Search:69 - Executing the Testcase GB_04 Order is 1.0
+2017-03-12 12:21:12 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 12:21:41 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2017-03-12 12:21:57 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 12:22:35 INFO  Scenario_Search:69 - Executing the Testcase GB_02 Order is 1.0
+2017-03-12 12:23:02 INFO  Scenario_Search:88 - Passed as Actual Result is 189 Expected Result  is 189
+2017-03-12 12:23:15 INFO  Scenario_Search:69 - Executing the Testcase GB_03 Order is 1.0
+2017-03-12 12:23:43 INFO  Scenario_Search:93 - Failed as Actual Result is 368 Expected Result  is 428
+2017-03-12 12:23:56 INFO  Scenario_Search:69 - Executing the Testcase GB_04 Order is 1.0
+2017-03-12 12:28:37 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 12:29:04 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2017-03-12 12:29:20 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 12:41:03 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 12:41:21 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 12:43:05 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 12:43:32 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2017-03-12 12:43:48 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 12:48:21 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 12:49:01 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 12:49:33 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2017-03-12 14:37:17 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 14:38:15 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.
+2017-03-12 14:38:31 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  2.0
+2017-03-12 14:41:07 INFO  Scenario_Search:27 - Executing the Testcase GB_01 Order is  1.0
+2017-03-12 14:41:35 INFO  Scenario_Search:44 - Passed as Actual Result is Sorry! There are no products to display.  Expected Result is Sorry! There are no products to display.

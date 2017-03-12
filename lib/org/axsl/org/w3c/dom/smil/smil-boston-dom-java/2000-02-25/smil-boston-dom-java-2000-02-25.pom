@@ -1,0 +1,150 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.axsl.org.w3c.dom.smil</groupId>
+  <artifactId>smil-boston-dom-java</artifactId>
+  <version>2000-02-25</version>
+
+  <packaging>jar</packaging>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>3</version>
+  </parent>
+
+  <name>W3C SMIL DOM bindings for Java (aXSL build)</name>
+  <description>The SMIL bindings for Java, written by the W3C, distributed
+by aXSL.</description>
+  <url>www.axsl.org</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <distribution>repo</distribution>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+      <comments>Product includes software created by the W3C and subject to its
+Software License. Text of the license is included in the jar file. Enumeration
+of aXSL's compliance with this license is also included in the jar
+file.</comments>
+    </license>
+  </licenses>
+  <scm>
+    <url>http://axsl.svn.sourceforge.net/viewvc/axsl/tags/smil-boston-dom-java-rel-2000-02-25</url>
+    <connection>scm:svn:https://axsl.svn.sourceforge.net/svnroot/axsl/tags/smil-boston-dom-java-rel-2000-02-25</connection>
+    <developerConnection>scm:svn:https://axsl.svn.sourceforge.net/svnroot/axsl/tags/smil-boston-dom-java-rel-2000-02-25</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <name>W3C</name>
+      <url>www.w3.org</url>
+    </developer>
+    <developer>
+      <name>Victor Mote</name>
+      <organization>aXSL</organization>
+      <organizationUrl>www.axsl.org</organizationUrl>
+      <roles>
+        <role>Developer</role>
+        <role>Build</role>
+      </roles>
+    </developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <!-- We really want this value to be 1.2, but doing so will introduce an unnecessary dependency on xml apis for
+    DOM, which are included in standard java in 1.4 and later. So we maintain this value at 1.5. However, when we
+    do a build, it should temporarily be changed to 1.2. This is annoying, but not horribly so, as we only very
+    infrequently build these static libraries. -->
+    <java.version>1.2</java.version>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+        </configuration>
+        <inherited>true</inherited>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
+              <addDefaultSpecificationEntries>true</addDefaultSpecificationEntries>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <configuration>
+          <tagBase>https://axsl.svn.sourceforge.net/svnroot/axsl/tags</tagBase>
+          <mavenExecutorId>forked-path</mavenExecutorId>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>release-sign-artifacts</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.0-alpha-4</version>
+            <executions>
+              <execution>
+                <id>sign-artifacts</id>
+                <phase>verify</phase>
+                <goals>
+                  <goal>sign</goal>
+                </goals>
+                <configuration>
+                  <keyname>${gpg.sign.keyname}</keyname>
+                  <passphrase>${gpg.sign.passphrase}</passphrase>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+</project>

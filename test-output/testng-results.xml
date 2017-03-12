@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Decbatch" duration-ms="45299" started-at="2017-03-12T19:33:43Z" finished-at="2017-03-12T19:34:29Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Scenario_Search.testInvalidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@52525845]" name="testInvalidSearch" class="Scenario_Component.Scenario_Search"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="RegSet1" duration-ms="45299" started-at="2017-03-12T19:33:43Z" finished-at="2017-03-12T19:34:29Z">
+      <class name="Scenario_Component.Scenario_Search">
+        <test-method status="PASS" signature="testInvalidSearch(java.util.Map)[pri:0, instance:Scenario_Component.Scenario_Search@52525845]" name="testInvalidSearch" duration-ms="44878" started-at="2017-03-13T01:03:44Z" data-provider="dp_InvalidSearch" finished-at="2017-03-13T01:04:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Order=1.0, =, Execute_Flag=Y, TC_ID=GB_01, Script_name=InvalidSearch, Search_item=####$, Exp_Result=Sorry! There are no products to display.}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSearch -->
+      </class> <!-- Scenario_Component.Scenario_Search -->
+    </test> <!-- RegSet1 -->
+  </suite> <!-- Decbatch -->
+</testng-results>
